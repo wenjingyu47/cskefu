@@ -68,6 +68,7 @@ public class LicenseProxy {
         /**
          * Check service connection
          */
+        /*
         System.out.println("[license] license service URL " + quotaWdClient.getBaseUrl());
         try {
             Response resp = quotaWdClient.ping();
@@ -82,13 +83,16 @@ public class LicenseProxy {
             // Very serious event happens, just shutdown the instance
             SpringApplication.exit(MainContext.getContext(), () -> 1);
         }
+        */
 
         /**
          * Init local data for License
          */
+        /*
         resolveServerinstId();
         resolveServicename();
         resolveLicenseIds();
+        */
     }
 
     /**
