@@ -1,7 +1,7 @@
 version: "3"
 services:
   contact-center:
-    image: hi-contact-center
+    image: update-contact-center
     restart: always
     ports:
       - "${CC_WEB_PORT:-8035}:8035"
