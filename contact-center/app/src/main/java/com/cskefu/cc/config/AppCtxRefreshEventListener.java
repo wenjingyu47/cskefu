@@ -139,8 +139,8 @@ public class AppCtxRefreshEventListener implements ApplicationListener<ContextRe
             }
 
             // 初始化 ServerInstId
-            LicenseProxy licenseProxy = event.getApplicationContext().getBean(LicenseProxy.class);
-            licenseProxy.checkOnStartup();
+            //LicenseProxy licenseProxy = event.getApplicationContext().getBean(LicenseProxy.class);
+            //licenseProxy.checkOnStartup();
         } else {
             logger.info("[onApplicationEvent] bypass, initialization has been done already.");
         }
