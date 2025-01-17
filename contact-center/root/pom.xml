@@ -406,7 +406,13 @@
             <artifactId>sdk</artifactId>
             <version>3.5.1</version>
         </dependency>
-
+        
+        <dependency>
+            <groupId>com.chatopera.store</groupId>
+            <artifactId>store-sdk</artifactId>
+            <version>1.1-SNAPSHOT</version>
+        </dependency>
+        
         <!-- Required for Java 11 https://github.com/cskefu/cskefu/issues/714 -->
         <dependency>
             <groupId>javax.xml.bind</groupId>
