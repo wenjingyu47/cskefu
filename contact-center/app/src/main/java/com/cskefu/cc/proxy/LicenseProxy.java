@@ -543,7 +543,7 @@ public class LicenseProxy {
         // 检查是否还在体验阶段
         ExecuteResult er = new ExecuteResult();
         int alreadyUsed = getResourceUsageInMetaKv(MainContext.BillingResource.AGENGUSER);
-        if (alreadyUsed <= 100) {
+        if (alreadyUsed <= 1) {
             // 可以免费创建 100 个访客会话
             er.setRc(ExecuteResult.RC_SUCC);
             return er;
