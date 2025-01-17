@@ -35,10 +35,12 @@ public class QuotaWdClientConfig {
      */
     @Bean
     public QuotaWdClient quotaWdClient() throws InvalidProviderException {
+        /*
         if (StringUtils.isBlank(licenseStoreProvider)) {
             System.out.println("[license] invalid license provider info, service is terminated.");
             System.exit(1);
         }
+        */
 
         QuotaWdClient quotaWdClient = new QuotaWdClient();
         return quotaWdClient;
